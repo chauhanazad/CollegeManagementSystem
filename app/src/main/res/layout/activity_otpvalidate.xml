@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/toolbar"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+
+            android:background="@drawable/background"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+
+            >
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Enter OTP(One Time Password) which Sended to :"
+                    android:textColor="#000000"
+                    android:id="@+id/t11"
+                    android:textAppearance="@style/Widget.MaterialComponents.TabLayout.Colored"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:weightSum="10"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1.6"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+
+
+                        android:theme="@style/myTextInputLabel"
+                        >
+                        <EditText
+
+                            android:id="@+id/e1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:inputType="number"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:maxLength="1"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1.6"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+
+
+                        android:theme="@style/myTextInputLabel"
+                        >
+                        <EditText
+
+                            android:id="@+id/e2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:inputType="number"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:maxLength="1"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1.6"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+
+
+                        android:theme="@style/myTextInputLabel"
+                        >
+                        <EditText
+
+                            android:id="@+id/e3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:inputType="number"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:maxLength="1"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1.6"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+
+
+                        android:theme="@style/myTextInputLabel"
+                        >
+                        <EditText
+
+                            android:id="@+id/e4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:inputType="number"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:maxLength="1"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1.6"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+
+
+                        android:theme="@style/myTextInputLabel"
+                        >
+                        <EditText
+                            android:gravity="center"
+                            android:id="@+id/e5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:inputType="number"
+                            android:textSize="25sp"
+                            android:maxLength="1"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1.6"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+
+                        android:theme="@style/myTextInputLabel"
+                        >
+                        <EditText
+
+                            android:gravity="center"
+                            android:id="@+id/e6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:maxLength="1"
+                            android:inputType="number"
+                            android:textSize="25sp"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+                <ImageButton
+                    android:onClick="change"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/ic_arrow_forward_black_24dp"
+                    android:background="@drawable/button_background"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</com.google.android.material.appbar.AppBarLayout>

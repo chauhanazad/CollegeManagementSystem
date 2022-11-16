@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:background="@color/white"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="10dp"
+    android:foreground="?attr/selectableItemBackground">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:shimmer_auto_start="false"
+        android:id="@+id/shimmer"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="10"
+        android:id="@+id/lin"
+        android:background="@drawable/shimmerrec"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/lib_man_sr_no"
+            android:textSize="14sp"
+
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+
+            android:id="@+id/lib_man_book_id"
+            android:layout_toRightOf="@id/lib_man_sr_no"
+            android:textColor="@color/black"
+
+            />
+            <TextView
+                android:id="@+id/lib_man_sub_name"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="5.5"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="5dp"
+
+                android:textColor="@color/black"
+
+                />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+
+            android:textSize="14sp"
+            android:id="@+id/lib_man_submit_date"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@+id/lib_man_book_submit"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>
